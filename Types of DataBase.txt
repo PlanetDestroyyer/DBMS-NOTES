@@ -1,0 +1,18 @@
+1) Object -Oriented database
+    Object Oriented Datbases (OODB) are databases that represent data in form of objects and classes . 
+    In Object Oriented Terminilogy an abject is a real world entity and a class is a collection of objects
+    Example - PostgreSQL
+
+2)Relational Datbase    
+    A Relational Datbase is a collection of data items with pre-defined relationships between them 
+    There items are organized as a set of Tables with columns and rows
+    Example - MySQL
+
+3) Distributed database
+    A Distributed database is and integrated collection of databases that is physsically  distibuted across sites in a computer network
+    Example - Cassandra
+
+4)Hierarchical databases    
+    A Hierarchical database is a datamodel in which data is stores in the form of records and organized into Tree-like structure or pranet-child ,
+     in which one parent node can have many child nodes through connection
+    Example - IBMS

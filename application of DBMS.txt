@@ -1,0 +1,22 @@
+1)Banking - for storing custmer information, account , activites , oayment , deposits , loans ,etc
+2)Airlines - for reservationand schedule information
+3)Unic=versities - For storing students information
+4)Telecommunication - it helps to keep call records , montly bills
+5)FInance - Storing information about stocks , sales and purchases
+
+
+DBMS ARCHITECTURE
+
+
+1-Tire Architecture :
+    1 Tire Architecture in DBMS is the simplest Architecture of database in which the client , server and Database all reside on the same machine. 
+    Example - I You install a Databse in your System and access it to practice SQL queries. But such Architecture is reraly in used in Production.
+
+2-Tire Architecture :
+    2 Tire Architecture in DBMS is a Database Architecture where the presentation layers runs on a client and data is stores on a server called the second tier.
+    Two Tire Architecture provides added security to the DBMS as it is not exposed to the end-user directly.
+    It also Provieds direct and faster communication.
+
+3-Tire Architecture :
+    3 Tire Architecture in DBMS is the most popular client server Architecture in DBMS in which the deveploment and maintenance of functional processes, logic , data storage and user interface is fdone indepently  as seperate modules.
+    Three Tire Architecture contains a presentation layer an application layer and a database server.

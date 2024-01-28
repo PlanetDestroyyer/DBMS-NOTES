@@ -1,0 +1,27 @@
+In  a multiple programming env where multiple transactions can be executed simultaneously, it is highly important to control the concurrency .
+We have concurrency control protocols to ensure atomicity, isolation and serializability of concurrent transactions. 
+concurrencycontrols protocols can be nroadly divided into two catergories :-
+
+1) Lock Based protocols :
+Database Systems equipped with lock based protocols use a mechanism by which any transactions cannt read pr write data until it accquires an appropriate lock on it . 
+Locks are of Two Kinds,
+
+A)Binary Locaks - A lock on a data item can be in two states, it is either locked or unlocked.
+
+B)Shared/ Exclusive - This Type of Locking mechanism differentiates the locks on their users. 
+If a lock is accquired on a data item to perform a write operation, it is Exclusive lock. 
+Allowing more than one transactions to write on the same data item would lead the Database into an inconsistent state.
+Read locks are shared beacuse no data value is being changed.
+
+
+2) Time stamp  Based protocols :
+
+A) The most commonly used concurrency protocols is the timestamp based protocols. 
+This protocols uses either Systems tiem or logiacl counter as a timestamp.
+
+B) Lock Based protocols manage the order between the conflicing pairs amomg transactions at the time of excetion whereas timestamp based protocols start working as soon as transactions is created.
+
+C) Every transactions has a timestamp associated with it and ordering is determined by the age of the transaction. 
+A transaction created at 0002 clock time would be older than all other transactions that come after it .For exmaple , any transaction 'Y' entering the Systemsat 004 is two seconds younger and the priority would be given to the older one.
+
+D) In additon every data item is given the latest read and write-timestamp.This lets the system knos when the last read and write operation was performed on the data item.

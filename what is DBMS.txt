@@ -1,0 +1,22 @@
+Database Management System (DBMS) is a software for storing and retrieving users data while considering appropriate security mesures
+
+It consist of a group of Program which manipluate the database.
+
+The DBMS accepts the request for data from an application and instructs the os to provide the specific data
+
+In Large Systems , A DBMS helps uses and other third-party software to store and retrieve data
+
+DBMS allows users to create their own databses as per their requirement. It Provided an interface between the data and the software application.
+
+Characteristics Of DBMS
+
+
+1)Real world entity
+2)Relation databases
+3)Structure query language
+4)Isolation Of data and application
+5)ACID Properties
+6)Multiuser and concurrent access
+7)Transactional Processing
+8)Less redundacy and consistency
+9)Data security and Intergrity

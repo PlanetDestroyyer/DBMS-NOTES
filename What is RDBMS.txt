@@ -1,0 +1,13 @@
+A Relation Databse i sa type of a database that stores and provies access to data points that are related to one another.
+Relation databse are based on the realtional model, an intutives , straightforward way of representing data in tables.
+In a Relational databse each row in the table is a record with a unique ID called the key.
+The columns of the table hold attributes of the data abd each rocord usually has a value for each attribute , making it easy to establish the relationships among data points.
+The major DBMS like SQL,MY-SQL,ORACLE wre all based on the principles of Relational DBMS.
+
+Advantages Of RDBMS:
+1) Easy to Manage
+2) security
+3) Fexible
+4) users
+5) Easy Data Handling
+6) Fault Tolerance

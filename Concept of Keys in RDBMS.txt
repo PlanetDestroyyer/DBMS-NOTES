@@ -1,0 +1,36 @@
+Why we Need a Key?
+Here are some reasons for using sql key in the DBMS system
+1) Keys help you to identify any row of data in table . 
+In real world application, a table could contain thousands of recored .
+Moreover , the records be duplicated. Keys in RDBMS ensure that you can uniquely identify a table record despite these challenges.
+
+2) Allows You to establish a relationship between and identify the realtion between tables
+
+3) Help you to enforce identify and intergity in the relationship.
+
+Types of Keys?
+
+1) Primary Key :
+Primary Key in DBMS is a column or group of column in table that uniquely identify every row in that table.
+The Primary key cant be a duplicate meaning the same value cant apper more than once in the table.
+A table cannot have more than one Primary key.
+Example - Employee-ID
+
+2) Candidate Key :
+A Candidate key is an attribute or set of an attribute which can uniquely identify a tuple.
+The remaining attributes except for primary key are considered as a Candidate key.
+The Candidate keys are a s strong as the Primary keys
+Example - SSN,Passport,AADHAR
+
+3) Super Key :
+Super key is a set of an attribute which can uniquely identify a tuple
+Super key is superset of a Candidate key
+Example - In the Employee table, for(Employee_ID,Employee_name) the name of two employes can be same , but their Employee_ID cant be dame.Hence, this combination can alse be a key.
+The Super key would be Employee_ID,(Employee_ID,Employee_name),etc.
+
+4) Foregin key :
+Foregin keys are the column of the table which is used to point to the primary key of another key.
+In a company every employee works in a specific department and employee and department are two different entities. 
+So we cant store the information of the department in the employee table. Thats why we link ther=se two tables through the primary key of one table.
+We add the primary ley to the Department table , Department_id as a new attribute in the Employee table
+Now in the Employee table , Department_id is the Foregin key and both the tables are related

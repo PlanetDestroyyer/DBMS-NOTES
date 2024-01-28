@@ -1,0 +1,4 @@
+1) A Datbase is an organized collection of data that can be modified, retrieved or update.
+2)The data stores in the database, is in the row and column format which is called a table.
+3)Every website which needs user to sign up uses database
+4)There is no internet withour database

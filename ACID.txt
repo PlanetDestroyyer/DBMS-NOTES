@@ -1,0 +1,29 @@
+ACID - Atomicity Consistency Isolation Durability
+
+Atomicity :
+By this , we mean that either the entire transaction take place at once or doesnt happen at all . 
+There is no midway i.e. transaction do not sccour Partially.
+ Each Transaction is considered as one unit and either runs to completion or is not executed at all.
+ It involves the following two operatios.
+1) Abort : if a transaction aborts changes made to database are not visible
+2) Commit : If a transaction commits , changesmade are visible
+
+Atomicity is known as the "All or Nothing rule".
+
+Consistency :
+This mean that integrity contraints must be maintained so that the database is consistent before and after the transaction . 
+It refers to teh correctness of a database. 
+
+Isolation : This Property ensures that multiple transaction can occur concurrently without leading to the incosistency of database state
+1) Transaction occues independently without interference
+2)Changes occurring in a particular transaction will not be visible to any other Transaction until that particular change in that transaction is written to memory or has been committed
+3)This Property ensures that the execution of transaction concurrently will result in a staet that is equivalent to a state achieved there were excuted serially in some order
+
+Durability :
+This Property ensures that once the transaction has completed execution, the updates and modifications to that database are stored in and writen to disk and they persist even if a system failure occus . 
+These updates now become permanent and are stored in non-volatile memory. The effects of the transaction, thus are never lost.
+
+The ACID Properties in totality provide a mechanism to ensure correctness and Consistency os a database in a wat sych that each transaction is a group of operatios that acts a single unit, produces consistent result, acts in Isolation from other operatios and updates that it makes are durably stored.
+
+
+

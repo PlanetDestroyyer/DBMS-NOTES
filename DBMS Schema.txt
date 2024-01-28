@@ -1,0 +1,10 @@
+A database schema defines its entities and the relationship among them.
+It contains a descriptive detail of the database , which can be depiced by means of schema diagram .
+Its the database designers who desings the scheme to help prgrammers understand the databse and make it usedfulss
+
+
+A databse schema can be divded broadly into two categories :-
+
+Physical Database Schema - This Schema pertains to the actual storage of data and its form of storage like fiesl, indices , etc , it defines how the data will be stores in a secondary storage.
+
+Logical Database Schema - This Schema Defines all the logiacl constraints that need to be applied on the data stored, It defiens tables , views and intergity constraints.

@@ -1,0 +1,26 @@
+A Transaction is a single logical unit of work which access and possibly modifies the contents of a database.
+For exmaple- You are Transferring money from your Bnak account to Your Friends Banlk account the set of operation would be like this:
+    1) Read Your account balance
+    2) Dedut the amount balance to Your Friends account
+    3) Read your Friends account balance
+    4) Add the amount to his account balance
+    5) Write the new updated balance to his account
+
+This whole set of operation can be called a Transaction. Although I have shown you Read, Write and update operation in the above exmaple but the Transaction can have operationlike ,read,write,insert, update. delete.
+
+
+Transaction States:
+1) Active State :
+As we have discussed in the DBMS Transaction introduction that a transaction is a sequence of operation. If a Transaction is in execution then it is said to be active state. It doesnt matter which step is in execution, until unless the transsction is executing it reamins in active state.
+
+2) Failed State :
+If a transaction is executing and failure occurs , either a hardware or a software failure then the transaction goes into failed state from the active state
+
+3)Partially Committed State :
+Once the whole Transaction is successfully ececuted the transaction goes into partially committed state where we have all the read and write operaion performed on the main memory instread of the actual database.
+
+4)Committed State :
+If a transaction completed the execution successfully then all the changes made in the local memory during partially committed state are permanently stored in the database. 
+
+5)Aborted State :
+If a transaction fails during execution then the transaction goes into a failed state.The changes made into the local memory are rolled back to the previous consistent state and the transaction goes into Aborted state from the failed state.

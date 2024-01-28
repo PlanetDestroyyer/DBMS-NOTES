@@ -1,0 +1,59 @@
+1)ER model stands for an Enitity-Relationship model. It is a high-level model.
+2)This Model is used to define the data elements and relationship for a specided system.
+3)It develops a conceptual design for the database.It also develpos a very simple and easy to design view of data.
+4)In ER modeling the databse structure is portrayed as a diagram called an entity-relationship diagram.
+
+
+
+
+Enitity :
+    An entity may be any abject , class,person or place.
+    In the ER diagram ,an entity can be represented as rectangles.
+    Consider an organization as an example - manager , product, employee , department etc can be taken as an entity
+    Example - [Employee] - [Department]
+
+Weak Enitity :
+    An entity that depends on another entity called a weak entity
+    The weak entity doesnt contain any key attribute of its own
+    The weak entity is represented by double rectangle
+    Example - [Loan] ------> [[Installment]]
+
+Attribute :
+    The attribute is used to describe the property of an entity.
+    Eclipse is used to represent an attribute. 
+    Example - id,age,contact number , name ,etc can be attributes of a studen.
+
+        1) Key Attribute : 
+        The key attribute is used to represent the main Characteristics of an entity.
+        It represent a primary key. The key attribute is represented by an Eclipse with the text underlined
+
+        2)Composite Attribute :
+        An attribute that composed of many other attributes is known as a composite attribute
+
+        3)Multivalued Attribute :
+        An attribute can have more than one value.These attribute as a multivalued attribute.
+
+        4)Dervied Attribute :
+        An attribute that can be derived from other attribute is known as a derived attribute.
+        It can be represented by a dashed Eclipse
+    
+Relationship :
+A relationship is used to dercribe the realtion between entities. Dimaond Symbol is used to represent the relationship
+Example - [Teacher]-{Teaches}-[Student]
+
+    1)One-to-One Relationship :
+    When only one instance of an entity is associate with the relationship, then known as one to one relationship.
+    Example - [Female]-{Married to }-[Male]
+
+    2)One-to-Many Relationship :
+    When only one instance of thr entity on the leftand morethan one instanceof an entity on the right associate with the relationship then this known as a one-to=many relationship.
+    Example - [Scintist]-{Invents}-[Invention]
+
+    3)Many-to-One Relationship:
+    when more than one instance of the entityon the left and only one instace of an entity on the right associate with the relationship then its known as a many-to-one relationship
+    Example - [Student]-{Enroll}-[Course]
+
+    4)Many-to-Many Relationship:
+    When more than one instanceof the entity on the left and more than one instance of an entity on the right associate with the relationship then it is known as a many-to-many relationship
+    Example = [Employee]-{Is Assigend}-[Projects]
+    
